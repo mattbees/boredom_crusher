@@ -11,10 +11,9 @@ const List = (props) => {
       <div>
         <h3>{thisActivity.activity}</h3>
         <ul key={i}>
-          <li></li>
           <li>{`Participants: ${thisActivity.participants}`}</li>
           <li>{`Price: ${thisActivity.price}`}</li>
-          {/*<li>{`Date: ${(thisActivity.date).toDateString()}`}</li>*/}
+          <li>{`Date: ${(thisActivity.date).toDateString()}`}</li>
         </ul>
       </div>
     )
