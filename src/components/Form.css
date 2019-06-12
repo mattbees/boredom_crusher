@@ -1,0 +1,19 @@
+.form-div {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+
+.calendar {
+  margin: auto;
+}
+
+.button {
+  min-width: 250px;
+  min-height: 25px;
+  font-size: 1.2em;
+  border: 1px solid;
+  border-radius: 4px;
+  margin: 20px;
+
+}

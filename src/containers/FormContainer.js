@@ -10,7 +10,6 @@ const mapStateToProps = (state) => {
 
 const mapDispatchToProps = (dispatch) => ({
   getActivity(event){
-    event.preventDefault();
     console.log('CALL');
     dispatch(()=>{
       fetch(`https://www.boredapi.com/api/activity/`)

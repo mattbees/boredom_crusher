@@ -1,8 +1,7 @@
-import React, { Fragment } from "react";
+import React, { Component, Fragment } from "react";
 import FormContainer from "./FormContainer";
-// import ActivityContainer from "./ActivityContainer";
+import List from "./List";
 
-// import
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import Navbar from '../components/Navbar';
 
@@ -14,7 +13,7 @@ const Main = (props) => {
       <Fragment>
         <Navbar />
         <Route exact path="/" component={FormContainer} />
-        {/*<Route path="/activities" component={ActivityContainer} />*/}
+        <Route path="/wishlist" component={List} />
       </Fragment>
     </Router>
   );
